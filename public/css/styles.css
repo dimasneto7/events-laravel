@@ -1,0 +1,52 @@
+* {
+    font-family: Montserrat, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.row {
+    margin: 0;
+}
+
+.container-fluid {
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #2696ad !important;
+    border: none !important;
+}
+
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+/* navbar */
+
+#navbar img {
+    width: 3.5rem;
+}
+
+#navbar {
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 5px 0;
+}
+
+#navbar a {
+    font-size: 14px;
+    color: #757575;
+}
+
+#navbar a:hover {
+    color: #2696ad;
+}
