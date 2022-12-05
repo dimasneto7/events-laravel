@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('title', 'Criar Evento')
+@section('title', $event->title)
 
 @section('content')
 
